@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+body{
+    background-color: rgb(209, 196, 196);
+}
+header{
+    background-color: #fff;
+    text-align: center;
+    margin: 0px -20px;
+}
+header>b{
+    font-size: 50px;
+    color: #34dab0;
+    text-shadow: 2px 2px 5px green;
+    padding: 20px;
+    
+}
+.headerflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    justify-content: baseline;
+    padding: 10px;
+    /* position: relative; */
+    
+}
+.headerflex>p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.headerflex>p>a{
+    color: #0c666d;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+.headerflex>button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: #099975;
+    color: rgb(250, 228, 215);
+    font: size 600px;;
+    font-weight: bolder;
+    
+}
+.banner{
+    position: relative;
+    margin: 0px -20px;
+}
+.banner>img{
+    width: 100%;
+    height: 300px;
+    filter: blur(1px);
+}
+.bannertext{
+    position: relative;
+    z-index: 1;
+    margin-top: -200px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+.bannertext>h2{
+    font-size: 50px;
+}
+.bannerbtn{
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #099975;
+    border: none;
+    margin-top: 20px;
+}
+.passion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px; 
+    margin-top: 120px; 
+    
+}
+.passiontext{
+    text-align: center; 
+    width: 50%;
+}
+.passiontext>h1{
+    color: rgb(54, 138, 110);
+}
+.passiontext>p{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.passiontext>a{
+    background-color: rgb(32, 121, 91);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.passionimg{
+    text-align: center;
+}
+.passionimg>img{
+    margin-top: 10px;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+.passionimg>p{
+    background-color: #fff;
+    border: 2px;
+    padding: 10px;
+    width: 120px;
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgb(208, 209, 209);
+    position: relative;
+    z-index: 1;
+    margin-top: -25px;
+    color: rgb(45, 116, 92);
+    font-size: 23px;
+
+}
+.services-flex{
+    display: flex;
+    flex-wrap: wrap;
+    color: aqua;
+    justify-content: space-around;
+}
+
+.serviceshead{
+    text-align: center;
+    color: rgb(63, 177, 139);
+    margin-top: 20px;
+}
+.serviceshead>h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #07886c;
+}
+.serviceshead>p{
+    color: black;
+    padding: 10px 0px;
+}
+.servicesbox{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(253, 251, 251);
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(110,145,145,1);
+}
+.bi-newspaper{
+    font-size: 100px;
+    color: black;
+}
+.bi-file-earmark-bar-graph{
+    font-size: 100px;
+    color: black;
+
+}
+.bi-cast{
+    font-size: 100px;
+    color: black;
+}
+.bi-globe2{
+    font-size: 100px;
+    color: black;
+}
+.servicesbox>p{
+    color: rgb(31, 170, 124);
+    padding: 10px;
+    font-size: 20px;
+}
+/*  total head of the  featued*/
+.featured-title{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(11, 165, 132);
+    text-transform: capitalize;
+}
+.featured-title>p{
+    color: black;
+    padding: 15px 0px;
+}
+/* parent class */
+.f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* child class */
+.featured-imgs{
+    width: 220px;
+    border: 2px solid rgb(253, 251, 251);
+    background-color: rgb(151, 207, 203);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(110,145,145,1);
+}
+.featured-imgs>img{
+    border-radius: 40px;
+    width: 100%;
+}
+.featured-imgs>h3{
+    color: rgb(11, 165, 132);
+    font-size: 30px;
+    padding: 10px;
+}
+.featured-imgs>p{
+    color: blue;
+    line-height: 1.5rem;
+    padding: 10px;
+}
+.featured-imgs>a{
+    background-color: aqua;
+    padding: 10px;
+}
+.farmerbannerimg{
+    padding-top: 30px;
+    text-align: center;
+    margin: 0px -20px;
+}
+.farmerbannerimg>img{
+    width: 100%;
+    height: 250px;
+    filter: blur(1px);
+    position: relative;
+}
+.farmerbannerimg>h2{
+    /* color: #1cd177; */
+    color: #c97b06;
+    position: relative;
+    z-index: 1;
+    margin-top: -220px;
+    text-transform: capitalize;
+}
+.farmerbannerimg>button{
+    background-color: #099975;
+    margin-top: 100px;
+    margin-left:50px ;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+.benefitsflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 20px 50px; */
+}
+.benefits{
+    color: #099975;
+    margin-top: 60px;
+    text-transform: capitalize;
+    width: 50%;
+    padding-bottom: 15px;
+    
+}
+.benefits>h2{
+    font-size: 50px;
+    color: #44be63;
+}
+.benefits>p{
+    color: black;
+    padding: 10px;
+}
+.benefits>button{
+    background-color: #128663;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.benefitsicons{
+    text-align: center;
+    background-color: #099975;
+    margin-top: 50px;
+    width: 50%;
+    color:aliceblue;
+    padding: 30px 0px;
+}
+.bi-star-fill{
+    padding: 60px;
+    font-size: 50px;
+}
+.bi-people{
+    font-size: 50px;
+    padding: 50px;
+}
+.bi-check2{
+    font-size: 50px;
+    padding: 50px;
+}
+.bi-people-fill{
+    font-size: 50px;
+    padding: 50px;
+}
+.testimonials>h1{
+    text-align: center;
+    text-transform: capitalize ;
+    color: #07886c;
+    padding: 20px;
+}
+.testimonials>p{
+    text-align: center;
+    text-transform: capitalize ;
+    padding: 20px 0px;
+}
+.testimonialsflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #099975;
+    border-radius: 20px;
+    /* margin: 0px 100px; */
+
+}
+.testimonialsimg{
+    padding: 20px;
+}
+.testimonialsimg>img{
+    
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.testimonialspara{
+    padding: 20px;
+}
+.testimonialspara>p{
+    margin: 10px 0px;
+    text-transform: capitalize ;
+}
+.testimonialspara>h2{
+    line-height: 30px;
+    color: #f80808;
+}
+
+.blog>h1{
+    text-align: center;
+    color: #07886c;
+    padding: 20px;
+    margin-top: 20px;
+}
+.blog>p{
+    text-align: center;
+}
+.blogimgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.blogimgs1{
+    width: 250px;
+    border-radius: 20px;
+    margin: 25px;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(110,145,145,1);
+    align-items: center;    
+}
+.blogimgs1>img{
+    width: 100%;
+    border-radius: 20px;
+}
+.blogimgs1>h2{
+    text-transform: capitalize;
+    color: #04503f;
+    padding: 20px 5px;
+}
+.blogimgs1>p{
+    padding: 5px ;
+}
+.blogimgs1>a{
+    padding: 20px;
+    line-height: 40px;
+}
+footer{
+    border: 2px solid rgb(53, 133, 115);
+    background-color: #099975;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:azure;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+    margin: 0px -20px;
+}
+.footertext{
+    text-align: start;
+}
+.footericons{
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.bi-instagram{
+    padding-right: 20px;
+    color: #fff;
+}
+.bi-facebook{
+    padding-right: 20px;
+    color: #fff;
+}
+.bi-github{
+    color: #fff;
+}
+body{
+    margin: 0px 20px;
+}
+/* ----------------------------Hover Session-------------------------------- */
+button:hover{
+    cursor: pointer;
+}
+ .pages p:hover{
+    color: rgb(65, 64, 62);
+ }
